@@ -1,0 +1,6 @@
+{%extends 'posts/post_base.html'%}
+{%block body%}
+    {%for post in post_list%}
+        <h1>{{post.title}}</h1>
+    {%endfor%}
+{%endblock%}
