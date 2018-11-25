@@ -25,7 +25,7 @@ SECRET_KEY = 'g)5n#*2md*t*zkx4drvq9(6#putztqkdd1mrmvo*bdg-@rc=u+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-class-gogo-och8808.c9users.io']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
