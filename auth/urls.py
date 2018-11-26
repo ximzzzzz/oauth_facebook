@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/',include('accounts.urls')),
     path('posts/',include('posts.urls')),
+    path('accounts/', include('allauth.urls')), #accounts가 두개가 있어도 상관없다.
 ]
